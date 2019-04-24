@@ -16,3 +16,8 @@ body{
     height: 100vh;
 }
 
+img.logo{
+    width: 8em;
+    height: auto;
+}
+

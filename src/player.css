@@ -8,11 +8,11 @@ i.material-icons{
 
 div.player{
     width: 100vw;
-    height: 75px;
+    height: 80px;
     position: absolute;
     bottom: 0;
     display: block;
-    padding-top: 1.275em;
+    padding-top: 1.55em;
     background: rgb(255, 255, 255);
     border-top: 1px solid rgb(240, 240, 240);
     color: rgb(0, 0, 0);
