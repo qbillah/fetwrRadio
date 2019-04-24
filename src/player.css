@@ -15,6 +15,7 @@ div.player{
     padding-top: 1.55em;
     background: rgb(255, 255, 255);
     border-top: 1px solid rgb(240, 240, 240);
+    box-shadow: 0px -2px 50px 2px #dedede;
     color: rgb(0, 0, 0);
 }
 

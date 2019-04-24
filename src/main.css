@@ -21,3 +21,9 @@ img.logo{
     height: auto;
 }
 
+div.main{
+    width: 100vw;
+    height: calc(100vh - 150px);
+    position: absolute;
+    top: 70px;
+}
