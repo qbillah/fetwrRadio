@@ -124,3 +124,9 @@ input[type=range]::-webkit-slider-runnable-track{
         display: none;
     }
 }
+
+@media all and (display-mode: standalone) {
+    div.player{
+        height: 100px;
+    }    
+}
