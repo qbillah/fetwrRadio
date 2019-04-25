@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -26,4 +30,36 @@ div.main{
     height: calc(100vh - 150px);
     position: absolute;
     top: 70px;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    overflow-y: scroll
+}
+
+div.main-wrap{
+    width: 90vw;
+    height: calc(100vh - 150px);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#landing{
+    width: 90vw;
+    height: calc(100vh - 150px);
+}
+
+
+div.tile{
+    width: calc(100vw / 10);
+    height: calc(100vw / 10);
+    background-image: url(https://66.media.tumblr.com/12ef8323267c2fe00f145b1194753c78/tumblr_om3uvhKVGS1rq4otqo1_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: -2px;
+    margin-bottom: -2px;
+    margin-left: -3px;
+    margin-right: -3px;
 }
